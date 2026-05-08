@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — CenterED Education</title>
+  <meta name="description" content="Connect with CenterED Education. Whether you're a school leader, district partner, or investor — we'd love to hear from you." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css" />
+</head>
+<body>
+
+<nav class="nav">
+  <a href="index.html" class="nav-logo">Center<span>ED</span> Education</a>
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="blog.html">Blog</a>
+    <a href="contact.html" class="active nav-cta">Work With Us</a>
+  </div>
+  <button class="hamburger" onclick="toggleMenu()" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="services.html">Services</a>
+  <a href="blog.html">Blog</a>
+  <a href="contact.html">Work With Us</a>
+</div>
+
+<!-- HERO -->
+<section class="hero hero-sm">
+  <div class="hero-inner">
+    <span class="hero-label">Let's Connect</span>
+    <h1>Let's Get You CenterED.</h1>
+    <p>Whether you're a school leader looking for support, a district exploring partnerships, or someone who believes in this work — we'd love to connect.</p>
+  </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section class="section">
+  <div class="inner">
+    <div class="contact-wrap">
+
+      <!-- LEFT: INFO -->
+      <div class="contact-info">
+        <h3>Reach Out Directly</h3>
+
+        <div class="c-detail">
+          <div class="c-icon"><i class="ti ti-mail"></i></div>
+          <div>
+            <p>Email</p>
+            <a href="mailto:centered.edu@gmail.com">centered.edu@gmail.com</a>
+          </div>
+        </div>
+
+        <div class="c-detail">
+          <div class="c-icon"><i class="ti ti-phone"></i></div>
+          <div>
+            <p>Phone</p>
+            <a href="tel:4242262253">(424) 226-2253</a>
+          </div>
+        </div>
+
+        <div class="c-detail">
+          <div class="c-icon"><i class="ti ti-brand-linkedin"></i></div>
+          <div>
+            <p>LinkedIn</p>
+            <a href="https://www.linkedin.com/in/vanna-oconner-31a84061" target="_blank">Vanna O'Conner</a>
+          </div>
+        </div>
+
+        <div class="c-detail">
+          <div class="c-icon"><i class="ti ti-map-pin"></i></div>
+          <div>
+            <p>Location</p>
+            <strong>Los Angeles, CA</strong>
+          </div>
+        </div>
+
+        <div class="c-quote">
+          <p>"Vanna consistently delivers on her promises. She has a ridiculously high sense of personal responsibility and an ongoing 'let's do it' nature that positions her as a true change agent."</p>
+          <cite>— Colleague &amp; Partner</cite>
+        </div>
+
+        <div style="margin-top:32px; padding:20px; border:1px solid var(--border); border-radius:var(--rl);">
+          <p style="font-size:13px; color:var(--muted); margin-bottom:4px; font-weight:500;">Founder &amp; Executive Director</p>
+          <p style="font-size:15px; font-weight:500; color:var(--navy); margin-bottom:2px;">Vanna O'Conner</p>
+          <p style="font-size:12px; color:var(--muted);">Harvard University M.Ed. · Vanderbilt University B.S.</p>
+        </div>
+      </div>
+
+      <!-- RIGHT: FORM -->
+      <div>
+        <h3 style="font-family:var(--serif); font-size:24px; font-weight:500; color:var(--navy); margin-bottom:28px;">Send a Message</h3>
+        <form action="mailto:centered.edu@gmail.com" method="POST" enctype="text/plain">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="first_name" placeholder="First name" required />
+            </div>
+            <div class="form-group">
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="last_name" placeholder="Last name" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="your@email.com" required />
+          </div>
+          <div class="form-group">
+            <label for="role">Your Role &amp; Organization</label>
+            <input type="text" id="role" name="role" placeholder="e.g. Principal, Lincoln Middle School — LAUSD" />
+          </div>
+          <div class="form-group">
+            <label for="interest">I'm interested in...</label>
+            <select id="interest" name="interest">
+              <option value="">Select an option</option>
+              <option value="connect">Tier 1 — CenterED Connect (Cohort + Tools)</option>
+              <option value="coach">Tier 2 — CenterED Coach (Monthly Coaching)</option>
+              <option value="partnership">Tier 3 — CenterED Partnership (District)</option>
+              <option value="general">General inquiry / not sure yet</option>
+              <option value="speaking">Speaking or facilitation</option>
+              <option value="invest">Investing in CenterED</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">What brings you here?</label>
+            <textarea id="message" name="message" placeholder="Tell us a bit about your team, your goals, and what support would be most helpful right now..."></textarea>
+          </div>
+          <button type="submit" class="form-submit">Send Message →</button>
+          <p style="font-size:12px; color:var(--muted); margin-top:12px; text-align:center;">We typically respond within 1–2 business days.</p>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- FAQ / WHAT TO EXPECT -->
+<section class="section section-cream">
+  <div class="inner">
+    <span class="eyebrow">What to Expect</span>
+    <h2 style="margin-bottom:40px;">Here's what happens<br>after you reach out.</h2>
+    <div class="grid-3">
+      <div class="card">
+        <div class="card-icon" style="background:var(--navy); color:var(--gold);">1</div>
+        <h3>We connect</h3>
+        <p>Within 1–2 business days, Vanna or a CenterED team member will reach out to schedule a brief discovery call.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon" style="background:var(--navy); color:var(--gold);">2</div>
+        <h3>We learn about your team</h3>
+        <p>In a 30–45 minute call, we'll listen to where you are, what your goals are, and what support would make the biggest difference.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon" style="background:var(--navy); color:var(--gold);">3</div>
+        <h3>We build your plan</h3>
+        <p>We'll recommend the right tier and structure for your team — and map out exactly how CenterED support will work for your context.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="footer-logo">Center<span>ED</span> Education</div>
+        <p class="footer-tagline">Coaching that creates clarity, builds confidence, and delivers results for students.</p>
+        <div class="footer-contact">
+          <a href="mailto:centered.edu@gmail.com"><i class="ti ti-mail"></i> centered.edu@gmail.com</a>
+          <a href="tel:4242262253"><i class="ti ti-phone"></i> (424) 226-2253</a>
+          <a href="https://www.linkedin.com/in/vanna-oconner-31a84061" target="_blank"><i class="ti ti-brand-linkedin"></i> LinkedIn</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Pages</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="services.html">CenterED Connect</a></li>
+          <li><a href="services.html">CenterED Coach</a></li>
+          <li><a href="services.html">CenterED Partnership</a></li>
+          <li><a href="contact.html">Work With Us</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 CenterED Education, LLC. All rights reserved.</p>
+      <p>Los Angeles, CA</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+function toggleMenu() {
+  document.getElementById('mobileMenu').classList.toggle('open');
+}
+</script>
+</body>
+</html>
