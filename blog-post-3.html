@@ -1,145 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Knowing vs. Doing: The Real Leadership Gap in Education — CenterED Education</title>
-  <meta name="description" content="Education leaders rarely lack knowledge. They lack the support structures that translate knowledge into consistent, confident action. Here's how to close that gap." />
   <link rel="stylesheet" href="styles.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css" />
   <style>
-    .post-wrap { max-width: 720px; margin: 0 auto; padding: 72px 40px 96px; }
-    .post-wrap h1 { font-family: var(--serif); font-size: clamp(28px, 4vw, 44px); font-weight: 500; color: var(--navy); line-height: 1.25; margin-bottom: 20px; }
-    .post-meta { font-size: 13px; color: var(--muted); margin-bottom: 48px; padding-bottom: 28px; border-bottom: 1px solid var(--border); }
-    .post-meta span { color: var(--gold); font-weight: 500; margin-right: 16px; }
-    .post-wrap h2 { font-family: var(--serif); font-size: 26px; font-weight: 500; color: var(--navy); margin: 48px 0 16px; line-height: 1.35; }
-    .post-wrap p { font-size: 17px; color: #3a3a3a; line-height: 1.85; margin-bottom: 24px; }
-    .post-wrap strong { color: var(--navy); }
-    .post-pull { border-left: 3px solid var(--gold); padding: 20px 28px; margin: 40px 0; background: var(--cream); border-radius: 0 var(--rl) var(--rl) 0; }
-    .post-pull p { font-family: var(--serif); font-size: 20px; font-style: italic; color: var(--navy); margin: 0; line-height: 1.55; }
-    .post-wrap ul { margin: 0 0 24px 0; padding: 0; }
-    .post-wrap ul li { font-size: 17px; color: #3a3a3a; line-height: 1.85; padding: 6px 0 6px 24px; position: relative; }
-    .post-wrap ul li::before { content: '→'; color: var(--gold); position: absolute; left: 0; font-weight: 500; }
-    .post-footer { margin-top: 64px; padding-top: 40px; border-top: 1px solid var(--border); }
-    .post-footer p { font-size: 15px; color: var(--muted); margin-bottom: 20px; }
-    @media (max-width: 700px) { .post-wrap { padding: 48px 20px 72px; } }
+    .post-wrap{max-width:720px;margin:0 auto;padding:72px 40px 96px}
+    .post-wrap h1{font-family:var(--serif);font-size:clamp(28px,4vw,44px);font-weight:500;color:var(--navy);line-height:1.25;margin-bottom:20px}
+    .post-meta{font-size:13px;color:var(--muted);margin-bottom:48px;padding-bottom:28px;border-bottom:1px solid var(--border)}
+    .post-meta span{color:var(--gold);font-weight:500;margin-right:16px}
+    .post-wrap h2{font-family:var(--serif);font-size:26px;font-weight:500;color:var(--navy);margin:48px 0 16px;line-height:1.35}
+    .post-wrap p{font-size:17px;color:#3a3a3a;line-height:1.85;margin-bottom:24px}
+    .post-wrap strong{color:var(--navy)}
+    .post-pull{border-left:3px solid var(--gold);padding:20px 28px;margin:40px 0;background:var(--cream);border-radius:0 var(--rl) var(--rl) 0}
+    .post-pull p{font-family:var(--serif);font-size:20px;font-style:italic;color:var(--navy);margin:0;line-height:1.55}
+    .post-footer{margin-top:64px;padding-top:40px;border-top:1px solid var(--border)}
+    .post-footer p{font-size:15px;color:var(--muted);margin-bottom:20px}
+    @media(max-width:700px){.post-wrap{padding:48px 20px 72px}}
   </style>
 </head>
 <body>
-
 <nav class="nav">
-  <a href="index.html" class="nav-logo"><img src="logo.png" alt="CenterED Education" style="height:36px; vertical-align:middle;" /></a>
-  <div class="nav-links">
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="services.html">Services</a>
-    <a href="blog.html" class="active">Blog</a>
-    <a href="contact.html" class="nav-cta">Work With Us</a>
-  </div>
+  <a href="index.html" class="nav-logo"><img src="logo.png" alt="CenterED Education" /></a>
+  <div class="nav-links"><a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="blog.html" class="active">Blog</a><a href="contact.html" class="nav-cta">Work With Us</a></div>
   <button class="hamburger" onclick="toggleMenu()" aria-label="Menu"><span></span><span></span><span></span></button>
 </nav>
-<div class="mobile-menu" id="mobileMenu">
-  <a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="blog.html">Blog</a><a href="contact.html">Work With Us</a>
-</div>
+<div class="mobile-menu" id="mobileMenu"><a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="blog.html">Blog</a><a href="contact.html">Work With Us</a></div>
 
 <div class="post-wrap">
   <span class="eyebrow">Equity</span>
   <h1>Knowing vs. Doing: The Real Leadership Gap in Education</h1>
-  <div class="post-meta">
-    <span>Vanna O'Conner</span> Founder & Executive Director, CenterED Education
-  </div>
+  <div class="post-meta"><span>Vanna O'Conner</span> Founder & CEO, CenterED Education</div>
 
-  <p>Early in my career as a math teacher in Memphis, I learned something that has shaped every piece of work I've done since. Knowing what good teaching looks like and actually doing it consistently are two very different things. I could articulate the principles of differentiated instruction. But putting them into practice under real classroom conditions, with 30 students, competing demands, and limited planning time, was a separate challenge entirely.</p>
-
+  <p>Early in my career as a math teacher in Memphis, I learned something that has shaped every piece of work I've done since. Knowing what good teaching looks like and actually doing it consistently are two very different things. I could articulate the principles of differentiated instruction. But putting them into practice under real classroom conditions — with students, competing demands, and limited planning time — was a separate challenge entirely.</p>
   <p>That gap between knowing and doing doesn't disappear when educators become leaders. If anything, it widens.</p>
-
   <p>School and system leaders today are extraordinarily well informed. They've attended the trainings. They've read the research. They can speak fluently about instructional leadership, adult development, equity, and organizational change. But when I sit with them in coaching sessions and we look honestly at how their time is spent, what their teams are actually working on, and how their school's priorities translate into daily practice, a different picture often emerges.</p>
-
   <p>The knowledge is there. The execution is where things get complicated.</p>
 
   <h2>Why knowledge alone isn't enough</h2>
-
   <p>We've built an education system that is very good at preparing leaders with knowledge and very underdeveloped at supporting them in applying it. Leadership preparation programs, district professional development, and certification trainings all operate primarily in the knowledge domain. They tell leaders what effective leadership looks like. They don't spend nearly enough time on the messy, real-time work of actually doing it.</p>
+  <p>This matters especially for leaders working in schools that serve students who've been historically underserved. In those contexts, the stakes of the knowing-doing gap are highest. When a leader has a clear vision for what students deserve but hasn't yet built the systems and structures to make that vision consistent across classrooms and school years, it's the students who feel it.</p>
 
-  <p>This matters especially for leaders working in schools that serve students who've been historically underserved. In those contexts, the stakes of the knowing-doing gap are highest. When a leader knows their school needs a stronger culture of high expectations but struggles to build the systems and structures to make that real, it's the kids who pay the price. Not immediately. Not visibly. But over time, consistently.</p>
+  <div class="post-pull"><p>"Training transfers knowledge. Supervision enforces expectations. Neither one reliably improves judgment under pressure."</p></div>
 
-  <div class="post-pull">
-    <p>"Training transfers knowledge. Supervision enforces expectations. Neither one reliably improves judgment under pressure."</p>
-  </div>
-
-  <p>That's the gap I keep coming back to. Judgment under pressure. The ability to make good decisions when things are hard, when competing priorities are pulling in different directions, and when there's no clear right answer. That kind of leadership judgment doesn't come from a workshop. It develops through practice, reflection, and feedback, ideally with someone alongside you who can help you see what you're too close to see.</p>
+  <p>That's the gap I keep coming back to. Judgment under pressure. The ability to make good decisions when things are hard, when competing priorities are pulling in different directions, and when there's no clear right answer. That kind of leadership judgment doesn't come from a workshop. It develops through practice, reflection, and feedback — ideally with someone alongside you who can help you see what you're too close to see.</p>
 
   <h2>What closing the gap actually looks like</h2>
-
-  <p>I've seen this gap close in real time with leaders I've worked with. And when it does, a few things are almost always true.</p>
-
-  <p><strong>There's a consistent structure for reflection.</strong> Not a year-end debrief. Not a quarterly check-in. A regular, recurring practice of stepping back from the work and asking honest questions. What did I say my priorities were? What did I actually spend my time on? Where did I get pulled off course, and why? That kind of honest self-examination is difficult to do alone. It's much more productive with a thought partner who can ask the questions you wouldn't think to ask yourself.</p>
-
-  <p><strong>The work stays connected to real stakes.</strong> The best leadership development I've been part of, as a participant and as a facilitator, has always been tethered to something real. Not a case study. Not a simulation. An actual decision the leader was navigating, an actual team they were trying to align, an actual student population they were trying to serve better. When development is grounded in real work, the learning sticks.</p>
-
-  <p><strong>Leaders are in community with other leaders.</strong> Something shifts when a group of school leaders starts being honest with each other about the knowing-doing gap in their own work. There's less performance. More real problem solving. And a kind of peer accountability that's different from anything a supervisor can provide. I've watched leaders leave those conversations with specific commitments, new strategies, and a sense of being genuinely supported that's hard to replicate any other way.</p>
+  <p><strong>There's a consistent structure for reflection.</strong> Not a year-end debrief. A regular, recurring practice of stepping back and asking honest questions. What did I say my priorities were? What did I actually spend my time on? Where did I get pulled off course, and why?</p>
+  <p><strong>The work stays connected to real stakes.</strong> The best leadership development I've been part of has always been tethered to something real. Not a case study. An actual decision the leader was navigating, an actual team they were trying to align, an actual student population they were trying to serve better.</p>
+  <p><strong>Leaders are in community with other leaders.</strong> Something shifts when a group of school leaders starts being honest with each other about the knowing-doing gap in their own work. There's less performance. More real problem solving. And a kind of peer accountability that's different from anything a supervisor can provide.</p>
 
   <h2>A different kind of investment</h2>
+  <p>Districts spend significant resources on curriculum, assessments, and instructional materials. Those investments matter. But the educators responsible for implementing all of it — the principals and system leaders who set the conditions for teaching and learning — often receive the least sustained investment in their own ongoing development.</p>
+  <p>If we want students to experience consistency and excellence, we have to invest differently in the adults who make that possible every day.</p>
 
-  <p>Districts spend significant resources on curriculum, assessments, and instructional materials. Those investments matter. But the educators responsible for implementing all of it, the principals and system leaders who set the conditions for teaching and learning, often receive the least sustained investment in their own ongoing development.</p>
-
-  <p>If we want schools to change in ways that last, we have to invest differently in the people leading them. Not just in what they know. But in their capacity to do the hard, daily work of leadership with clarity, confidence, and consistency.</p>
-
-  <p>That's what closing the knowing-doing gap looks like. And it's what CenterED was built to support.</p>
-
-  <div class="post-pull">
-    <p>"The best leadership teams don't just have a vision. They have the support and systems to execute it."</p>
-  </div>
-
-  <p>If you're a leader who recognizes this gap in yourself or your team, I'd love to connect. The work of closing it is some of the most important work we can do for the students who need us most.</p>
+  <div class="post-pull"><p>"The best leadership teams don't just have a vision. They have the support and systems to execute it."</p></div>
 
   <div class="post-footer">
-    <p>Vanna O'Conner is the Founder and Executive Director of CenterED Education. She has spent 15 years coaching school and system leaders across the country.</p>
-    <a href="contact.html" class="btn btn-primary">Work With Us →</a>
-    <div style="margin-top:32px;">
-      <a href="blog.html" style="font-size:14px; color:var(--gold); font-weight:500;">← Back to Blog</a>
-    </div>
+    <p>Vanna O'Conner is the Founder and CEO of CenterED Education. She has spent nearly 20 years coaching school and system leaders across the country.</p>
+    <a href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2m2hqlCsB6rV1WqsT-EeWgGHhQsTjfVDViPcuIN8cl3KYoidFE-vxnC1wqujYZl1OntZKInl81" target="_blank" class="btn btn-primary">Let's Connect →</a>
+    <div style="margin-top:32px;"><a href="blog.html" style="font-size:14px; color:var(--gold); font-weight:500;">← Back to Blog</a></div>
   </div>
 </div>
 
 <footer>
   <div class="footer-inner">
     <div class="footer-top">
-      <div class="footer-brand">
-        <div class="footer-logo"><img src="logo-white.png" alt="CenterED Education" style="height:36px;" /></div>
-        <p class="footer-tagline">Coaching that creates clarity, builds confidence, and delivers results for students.</p>
-        <div class="footer-contact">
-          <a href="mailto:centered.edu@gmail.com"><i class="ti ti-mail"></i> centered.edu@gmail.com</a>
-          <a href="tel:4242262253"><i class="ti ti-phone"></i> (424) 226-2253</a>
-          <a href="https://www.linkedin.com/in/vanna-oconner-31a84061" target="_blank"><i class="ti ti-brand-linkedin"></i> LinkedIn</a>
-        </div>
-      </div>
-      <div class="footer-col">
-        <h4>Pages</h4>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h4>Services</h4>
-        <ul>
-          <li><a href="services.html">CenterED Connect</a></li>
-          <li><a href="services.html">CenterED Coach</a></li>
-          <li><a href="services.html">CenterED Partnership</a></li>
-          <li><a href="contact.html">Work With Us</a></li>
-        </ul>
-      </div>
+      <div class="footer-brand"><div class="footer-logo"><img src="logo-white.png" alt="CenterED Education" /></div><p class="footer-tagline">Coaching that creates clarity, builds confidence, and delivers results for students.</p><div class="footer-contact"><a href="mailto:centered.edu@gmail.com"><i class="ti ti-mail"></i> centered.edu@gmail.com</a><a href="https://www.linkedin.com/in/vanna-oconner-31a84061" target="_blank"><i class="ti ti-brand-linkedin"></i> LinkedIn</a></div></div>
+      <div class="footer-col"><h4>Pages</h4><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="services.html">Services</a></li><li><a href="blog.html">Blog</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+      <div class="footer-col"><h4>Services</h4><ul><li><a href="services.html">CenterED Connect</a></li><li><a href="services.html">CenterED Coach</a></li><li><a href="services.html">CenterED Partnership</a></li></ul></div>
     </div>
-    <div class="footer-bottom">
-      <p>© 2025 CenterED Education, LLC. All rights reserved.</p>
-      <p>Los Angeles, CA</p>
-    </div>
+    <div class="footer-bottom"><p>© 2025 CenterED Education, LLC. All rights reserved.</p><p>Los Angeles, CA</p></div>
   </div>
 </footer>
-<script>function toggleMenu(){document.getElementById('mobileMenu').classList.toggle('open');}</script>
+<script>function toggleMenu(){document.getElementById("mobileMenu").classList.toggle("open");}</script>
 </body>
 </html>
